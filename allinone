@@ -60,46 +60,39 @@ event-interaction https://ghproxy.com/https://raw.githubusercontent.com/KOP-XIAO
 
 
 [rewrite_remote]
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=远程重写, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 
 #>>>>>>>>>>>解锁会员
-https://ghproxy.com/https://codeberg.org/network-rules/Cuttlefish/raw/master/Rewrite/ForOwnUse.conf, tag=墨鱼专属VIP@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://codeberg.org/network-rules/Cuttlefish/raw/master/Rewrite/AdBlock/Bilibili.conf, tag=B站去广告+1080P高码率@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://codeberg.org/network-rules/Cuttlefish/raw/master/Rewrite/UnlockVip/Spotify.conf, tag=Spotify音乐VIP@app2smile, update-interval=86400, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向@DivineEngine, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=神机去广告重写@DivineEngine, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf, tag=去開屏廣告, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://codeberg.org/network-rules/Cuttlefish/raw/branch/master/Rewrite/AdBlock/WeiboLite.conf, tag=weibo國際版去廣告, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎去广告及体验增强@blackmatrix7, update-interval=86400, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=什么值得买去广告@blackmatrix7, update-interval=86400, opt-parser=false, enabled=true
+https://codeberg.org/network-rules/Cuttlefish/raw/master/Rewrite/ForOwnUse.conf, tag=墨鱼专属VIP@ddgksf2013, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf, tag=Spotify音乐VIP@app2smile, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 
 
 #>>>>>>>>>>>软件增强
-https://ghproxy.com/https://codeberg.org/network-rules/Cuttlefish/raw/master/Rewrite/UnlockVip/BaiduCloud.conf, tag=百度网盘倍速@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信解锁被屏蔽的URL@zZPiglet, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/QuantumultX/master/TikTok.conf, tag=Tiktok解锁@Orz-3, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=Netflix评分@Orz-3, update-interval=86400, opt-parser=false, enabled=true
+https://codeberg.org/network-rules/Cuttlefish/raw/master/Rewrite/UnlockVip/BaiduCloud.conf, tag=百度网盘倍速@ddgksf2013, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信解锁被屏蔽的URL@zZPiglet, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 
 
 #>>>>>>>>>>>应用去广告
-https://ghproxy.com/https://codeberg.org/network-rules/Cuttlefish/raw/master/Rewrite/AdBlock/StartUp.conf, tag=应用去开屏广告@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎去广告及体验增强@blackmatrix7, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=什么值得买去广告@blackmatrix7, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://codeberg.org/network-rules/Cuttlefish/raw/master/Applet/QuanX.conf, tag=微信小程序去广告@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=油管去广告@DivineEngine, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://github.com/zmqcherish/proxy-script/raw/main/weibo.conf, tag=微博去广告@zmqcherish, update-interval=86400, opt-parser=false, enabled=true
+https://codeberg.org/network-rules/Cuttlefish/raw/master/Applet/QuanX.conf, tag=微信小程序去广告@ddgksf2013, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=油管去广告@DivineEngine, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 
 
 
 #>>>>>>>>>>>通用去广告
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Advertising/Advertising.conf, tag=去广告重写@blackmatrix7, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向@DivineEngine, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=神机去广告重写@DivineEngine, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Advertising/Advertising.conf, tag=去广告重写@blackmatrix7, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 
 
 #>>>>>>>>>>>网页优化
-https://ghproxy.com/https://codeberg.org/network-rules/Cuttlefish/raw/master/Html/WebAdBlock.conf, tag=影视网站去广告@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://codeberg.org/network-rules/Cuttlefish/raw/master/Rewrite/Function/Q-Search.conf, tag=Safari超级搜索@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
 
 #>>>>>>>>>>>未启用的重写
-https://ghproxy.com/https://codeberg.org/network-rules/Cuttlefish/raw/master/Rewrite/UnlockVip/Rrtv.conf, tag=人人视频VIP@ddgksf2013, update-interval=86400, opt-parser=false, enabled=false
-https://ghproxy.com/https://codeberg.org/network-rules/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf, tag=酷我音乐VIP@ddgksf2013, update-interval=86400, opt-parser=false, enabled=false
-https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=比价脚本@Orz-3, update-interval=86400, opt-parser=false, enabled=false
-https://ghproxy.com/https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant, tag=油管字幕翻译@id77, update-interval=86400, opt-parser=false, enabled=false
-https://ghproxy.com/https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJS商店版@chavyleung, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant, tag=油管字幕翻译@id77, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJS商店版@chavyleung, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 
 
 [server_local]
@@ -108,11 +101,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/chavyleung/scripts/master/
 
 
 [server_remote]
+https://xn--4gq62f52gdss.com/api/v1/client/subscribe?token=d8acf1d83eea7561fe587e5a3a072387, tag=一元, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 
-# > 为避免网易云解锁节点滥用，有需求的请去墨鱼手记公众号回复「网易云」获取
-
-# > 魔法仅供临时使用
-https://proxies.bihai.cf/vmess/sub?filter=r, tag=墨鱼手记, update-interval=1200, opt-parser=true, enabled=true
 
 
 
@@ -212,6 +202,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/chavyleung/scripts/master/
 
 
 [mitm]
+passphrase = D1ABF0A2
+p12 = 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
 
 skip_validating_cert = true
 force_sni_domain_name = false
