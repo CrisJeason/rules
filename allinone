@@ -60,7 +60,7 @@ event-interaction https://ghproxy.com/https://raw.githubusercontent.com/KOP-XIAO
 
 
 [rewrite_remote]
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=远程重写, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+
 
 #>>>>>>>>>>>解锁会员
 https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向@DivineEngine, update-interval=86400, opt-parser=false, enabled=true
@@ -101,7 +101,7 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 
 [server_remote]
-https://xn--4gq62f52gdss.com/api/v1/client/subscribe?token=d8acf1d83eea7561fe587e5a3a072387, tag=一元, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+
 
 
 
