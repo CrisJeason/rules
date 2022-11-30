@@ -1,0 +1,19 @@
+// @ScriptURL         https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Rewrite/UnlockApp.conf
+// ==/UserScript==
+
+
+
+# > 112 TopWidgets☆永久VIP（2022-10-30）@ddgksf2013
+^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body topwidgets.js
+
+# > 110 百度文库☆解锁VIP文档阅读权限（2022-10-17）@ddgksf2013
+^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo url script-response-body baidulibrary.js
+
+# > 103 Not Boring 四件套[天气、习惯、计算器、时间] 解锁会员权限（2022-06-29）@ddgksf2013
+^https?:\/\/api-weather\.andy\.works\/v\d\/\w{13,18}$ url script-response-body notboring.js
+
+# > 099 SpotifyPro（2022-02-15）@app2smile
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+
+# > 097 Notability（2021-11-02）@ddgksf2013
+https://notability.com/subscriptions url script-response-body notability.js
