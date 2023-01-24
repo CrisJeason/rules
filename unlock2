@@ -31,5 +31,5 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 ^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/lightroom.js
 
 
-# Photoshop Express解锁
-^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/photoshop.js
+#phothop&PSexpress
+^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/photoshop.js
