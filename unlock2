@@ -1,4 +1,4 @@
-hostname = mobile.flightradar24.com, ap*.intsig.net, xluser-ssl.xunlei.com, txv04.com, *.docer.wps.cn, vipapi.wps.cn, account.wps.cn, account.wps.cn, *account.wps.com, photos.adobe.io
+hostname = mobile.flightradar24.com, ap*.intsig.net, xluser-ssl.xunlei.com, txv04.com, *.docer.wps.cn, vipapi.wps.cn, account.wps.cn, account.wps.cn, *account.wps.com, photos.adobe.io, lcs-mobile-cops.adobe.io
 
 
 
@@ -30,3 +30,6 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 # Lightroom解锁
 ^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/lightroom.js
 
+
+# Photoshop Express解锁
+^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/photoshop.js
