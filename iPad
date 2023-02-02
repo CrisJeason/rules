@@ -60,6 +60,7 @@ event-interaction https://ghproxy.com/https://raw.githubusercontent.com/KOP-XIAO
 
 
 [rewrite_remote]
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/whqsy.js, tag=Remove Objects解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 
 
 #>>>>>>>>>>>解锁会员
@@ -67,20 +68,18 @@ https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/mast
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=神机去广告重写@DivineEngine, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf, tag=去開屏廣告, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf, tag=YouTube, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/WeChat.conf, tag=微信去廣告, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Weibo.conf, tag=weibo國際版去廣告, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎去广告及体验增强@blackmatrix7, update-interval=86400, opt-parser=false, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=什么值得买去广告@blackmatrix7, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Bilibili.conf, tag=bilibili, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf, tag=Spotify, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 
 
 #>>>>>>>>>>>软件增强
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/BaiduCloud.conf, tag=百度网盘倍速@ddgksf2013, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=微信解锁被屏蔽的URL@zZPiglet, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 
 
 #>>>>>>>>>>>应用去广告
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=油管去广告@DivineEngine, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=youtube去广告, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 
 
 
@@ -98,7 +97,14 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/Tik
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJS商店版@chavyleung, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 UnlockApp.conf, tag=UnlockApp, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/CrisJeason/rules/main/unlock2, tag=unlock2, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xmind.js, tag=xmind解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Vista.js, tag=Vista, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Craft.js, tag=craft解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pandora.js, tag=Pandora解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js, tag=piscew解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/BaiduCloud.conf, tag=百度网盘倍速@ddgksf2013, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/WeiRen0/Scripts/main/Xtu.js, tag=醒图+剪映+轻颜, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/bdwk.js, tag=百度文库app阅读权限, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
 
 
 [server_local]
@@ -108,7 +114,7 @@ https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js, t
 
 [server_remote]
 https://api.sublink.dev/sub?target=quanx&url=trojan%3A%2F%2F834600jyt%40ttcool.crisjeason.me%3A443%3Fsecurity%3Dtls%26type%3Dtcp%26headerType%3Dnone%23ttcool.crisjeason.me%253A443%7C&insert=false, tag=DO_NY, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
-https://xn--4gq62f52gdss.com/api/v1/client/subscribe?token=2e7400bc2f055c6bd12e6b84437198e8, tag=一元, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://xn--4gq62f52gdss.com/api/v1/client/subscribe?token=2e7400bc2f055c6bd12e6b84437198e8, tag=私有服務器, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 
 
 
@@ -221,4 +227,3 @@ force_sni_domain_name = false
 hostname = -*.amemv.com, -*.snssdk.com
 
 # 🟢 passphrase和p12代为证书&主机名部分, 更新配置前可把旧的配置中passphrase和p12代码拷贝下来, 导入新的配置文件把内容粘贴在对应位置就不用重装证书
-
