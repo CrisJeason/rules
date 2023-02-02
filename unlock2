@@ -1,10 +1,4 @@
-hostname = mobile.flightradar24.com, ap*.intsig.net, xluser-ssl.xunlei.com, txv04.com, *.docer.wps.cn, vipapi.wps.cn, account.wps.cn, account.wps.cn, *account.wps.com, photos.adobe.io, lcs-mobile-cops.adobe.io
-
-
-
-# flightradar24高级解锁--Eric   mobile.flightradar24.com
-^https://mobile.flightradar24.com/mobile/(user-session|subscribe) url script-response-body https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/flightradar24.js
-
+hostname = mobile.flightradar24.com, xluser-ssl.xunlei.com, *.docer.wps.cn, vipapi.wps.cn, account.wps.cn, account.wps.cn, *account.wps.com, photos.adobe.io, lcs-mobile-cops.adobe.io, api-weather.andy.works
 
 
 # > Flightradar24
@@ -12,10 +6,6 @@ hostname = mobile.flightradar24.com, ap*.intsig.net, xluser-ssl.xunlei.com, txv0
 
 # 迅雷不限速     xluser-ssl.xunlei.com
 https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/xunlei.js
-
-
-# 糖心网页版解锁会员  网址：http://txv04.com/
-^https?:\/\/txv04\.com\/h5\/user\/findQrcode$ url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/tangxin.js
 
 
 # WPS解锁  超级会员、wps会员、稻壳会员  *.docer.wps.cn, vipapi.wps.cn, account.wps.cn, account.wps.cn, *account.wps.com
@@ -33,3 +23,6 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 
 # phothop&PSexpress
 ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/photoshop.js
+
+# Not Boring 四件套[天气、习惯、计算器、时间] 解锁会员权限（2022-06-29）@ddgksf2013
+^https?:\/\/api-weather\.andy\.works\/v\d\/\w{13,18}$ url script-response-body notboring.js
