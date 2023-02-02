@@ -1,6 +1,6 @@
 // ==UserScript==
 // @ConfigName        CrisJeason自用的QX配置文件
-// @Author            CrisJeason2
+// @Author            CrisJeason
 // @Function          请参考对应的注释或Tag
 // @MainFunction      去开屏广告、超级VIP、智能分流、图标订阅、流媒体查询、Boxjs订阅、IOS更新屏蔽
 // @ExpressThanks     @ddgksf2013,@Nick-workflow,@KOP-XIAO,@DivineEngine,@blackmatrix7,@Orz-3,@yjqiang,@O7Y0,@Peng-YM,@Neurogram-R,@id77,@NobyDa,@17mon
@@ -60,17 +60,21 @@ event-interaction https://ghproxy.com/https://raw.githubusercontent.com/KOP-XIAO
 
 
 [rewrite_remote]
-https://raw.githubusercontent.com/CrisJeason/rules/main/unlock2, update-interval=172800, opt-parser=true, enabled=true
+UnlockApp.conf, tag=UnlockApp, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 
 
 #>>>>>>>>>>>解锁会员
 https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机重定向@DivineEngine, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=神机去广告重写@DivineEngine, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/StartUp.conf, tag=去開屏廣告, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
-https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Weibo.conf, tag=weibo國際版去廣告, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf, tag=YouTube, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Weibo.conf, tag=weibo去廣告, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/WeChat.conf, tag=微信去廣告, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Amap.conf, tag=高德去廣告, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
-https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.qxrewrite, tag=知乎去广告及体验增强@blackmatrix7, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet, tag=知乎去广告及体验增强@blackmatrix7, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=什么值得买去广告@blackmatrix7, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Netease.conf, tag=網易雲音樂凈化, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Bilibili.conf, tag=bilibili, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf, tag=Spotify, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 
 
@@ -95,9 +99,14 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/Tik
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-TW.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-KR.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-US.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduKeyboard.js, tag=百度输入法, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJS商店版@chavyleung, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
-UnlockApp.conf, tag=UnlockApp, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/CrisJeason/rules/main/unlock2, tag=unlock2, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Craft.js, tag=craft解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pandora.js, tag=Pandora解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/chxm1023/Rewrite/main/AdGuard.js, tag=Ad Guard, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js, tag=piscew解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/WeiRen0/Scripts/main/Tx.js, tag=tx, update-interval=172800, opt-parser=true, enabled=true
 
 
 [server_local]
@@ -107,7 +116,7 @@ https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js, t
 
 [server_remote]
 https://api.sublink.dev/sub?target=quanx&url=trojan%3A%2F%2F834600jyt%40ttcool.crisjeason.me%3A443%3Fsecurity%3Dtls%26type%3Dtcp%26headerType%3Dnone%23ttcool.crisjeason.me%253A443%7C&insert=false, tag=DO_NY, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
-https://xn--4gq62f52gdss.com/api/v1/client/subscribe?token=2e7400bc2f055c6bd12e6b84437198e8, tag=一元, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://xn--4gq62f52gdss.com/api/v1/client/subscribe?token=2e7400bc2f055c6bd12e6b84437198e8, tag=機場, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 
 
 
@@ -221,4 +230,3 @@ force_sni_domain_name = false
 hostname = -*.amemv.com, -*.snssdk.com
 
 # 🟢 passphrase和p12代为证书&主机名部分, 更新配置前可把旧的配置中passphrase和p12代码拷贝下来, 导入新的配置文件把内容粘贴在对应位置就不用重装证书
-
