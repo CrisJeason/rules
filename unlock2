@@ -1,4 +1,4 @@
-hostname = mobile.flightradar24.com, xluser-ssl.xunlei.com, *.docer.wps.cn, vipapi.wps.cn, account.wps.cn, account.wps.cn, *account.wps.com, photos.adobe.io, lcs-mobile-cops.adobe.io
+hostname = mobile.flightradar24.com, xluser-ssl.xunlei.com, *.docer.wps.cn, vipapi.wps.cn, account.wps.cn, account.wps.cn, *account.wps.com, photos.adobe.io, lcs-mobile-cops.adobe.io, api-weather.andy.works, api.revenuecat.com
 
 
 # > Flightradar24
@@ -24,3 +24,7 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 # phothop&PSexpress
 ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/photoshop.js
 
+
+# > 1 Not Boring 四件套[天气、习惯、日历、时间] 解锁会员权限（2022-12-03）@ddgksf2013
+^https?:\/\/api-weather\.andy\.works\/v\d\/\w{13,18}$ url reject-dict
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/*) url script-echo-response NotBoringProCrack.js
