@@ -7,7 +7,7 @@ hostname = mobile.flightradar24.com, ap*.intsig.net, xluser-ssl.xunlei.com, txv0
 
 
 
-# >Flightradar24
+# > Flightradar24
 ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) url script-echo-response https://github.com/ddgksf2013/dev/raw/main/flightradar24.js
 
 # 迅雷不限速     xluser-ssl.xunlei.com
@@ -31,5 +31,5 @@ https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo url script-respon
 ^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/lightroom.js
 
 
-#phothop&PSexpress
+# phothop&PSexpress
 ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/photoshop.js
