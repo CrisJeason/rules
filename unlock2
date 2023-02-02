@@ -2,12 +2,12 @@ hostname = mobile.flightradar24.com, ap*.intsig.net, xluser-ssl.xunlei.com, txv0
 
 
 
-# >flightradar24高级解锁--Eric   mobile.flightradar24.com
+# flightradar24高级解锁--Eric   mobile.flightradar24.com
 ^https://mobile.flightradar24.com/mobile/(user-session|subscribe) url script-response-body https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/flightradar24.js
 
 
 
-# Flightradar24
+# >Flightradar24
 ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) url script-echo-response https://github.com/ddgksf2013/dev/raw/main/flightradar24.js
 
 # 迅雷不限速     xluser-ssl.xunlei.com
