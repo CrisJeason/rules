@@ -60,6 +60,7 @@ event-interaction https://ghproxy.com/https://raw.githubusercontent.com/KOP-XIAO
 
 
 [rewrite_remote]
+https://raw.githubusercontent.com/WeiRen0/Free1/main/Lsp.conf, tag=by-伟人LSP🚗库, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/CrisJeason/rules/main/pillow, tag=pillow, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 
 
@@ -96,10 +97,10 @@ https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/r
 #>>>>>>>>>>>网页优化
 
 #>>>>>>>>>>>未启用的重写
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-JP.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-TW.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-KR.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-US.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-JP.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-TW.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-KR.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/TikTok-US.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/BaiduKeyboard.js, tag=百度输入法, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJS商店版@chavyleung, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
 UnlockApp.conf, tag=UnlockApp, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
@@ -121,7 +122,8 @@ https://raw.githubusercontent.com/WeiRen0/Scripts/main/TX2.js, tag=tx, update-in
 
 [server_remote]
 https://api.sublink.dev/sub?target=quanx&url=trojan%3A%2F%2F834600jyt%40ttcool.crisjeason.me%3A443%3Fsecurity%3Dtls%26type%3Dtcp%26headerType%3Dnone%23ttcool.crisjeason.me%253A443%7C&insert=false, tag=DO_NY, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
-https://xn--4gq62f52gdss.com/api/v1/client/subscribe?token=42fba4905406587ee3bbfe85000d57a0, tag=私有服務器, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=f5a611d90abae4fdae84aa93023598ae, tag=私有服務器, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://liangyuandian.club/api/v1/client/subscribe?token=3842b93b42bb0e1803cce054941589db, tag=私有服務器2, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 
 
 
