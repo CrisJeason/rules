@@ -60,6 +60,7 @@ event-interaction https://ghproxy.com/https://raw.githubusercontent.com/KOP-XIAO
 
 
 [rewrite_remote]
+https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Cainiao.conf, tag=菜鸟净化, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 
 
 #>>>>>>>>>>>解锁会员
@@ -102,9 +103,9 @@ https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Vista.js, tag=
 https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Craft.js, tag=craft解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pandora.js, tag=Pandora解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js, tag=piscew解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
-https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/whqsy.js, tag=Remove Objects解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/BaiduCloud.conf, tag=百度网盘倍速@ddgksf2013, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=true
-https://raw.githubusercontent.com/WeiRen0/Scripts/main/XTJY.js, tag=醒图+剪映+轻颜, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/whqsy.js, tag=Remove Objects解鎖, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/BaiduCloud.conf, tag=百度网盘倍速@ddgksf2013, update-interval=86400, opt-parser=true, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/WeiRen0/Scripts/main/XTJY.js, tag=醒图+剪映+轻颜, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
 https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/bdwk.js, tag=百度文库app阅读权限, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
 
 
@@ -115,7 +116,8 @@ https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/bdwk.js, tag=�
 
 [server_remote]
 https://api.sublink.dev/sub?target=quanx&url=trojan%3A%2F%2F834600jyt%40ttcool.crisjeason.me%3A443%3Fsecurity%3Dtls%26type%3Dtcp%26headerType%3Dnone%23ttcool.crisjeason.me%253A443%7C&insert=false, tag=DO_NY, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
-https://xn--4gq62f52gdss.com/api/v1/client/subscribe?token=42fba4905406587ee3bbfe85000d57a0, tag=私有服務器, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=f5a611d90abae4fdae84aa93023598ae, tag=私有服務器, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://liangyuandian.club/api/v1/client/subscribe?token=3842b93b42bb0e1803cce054941589db, tag=私有服務器2, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
 
 
 
